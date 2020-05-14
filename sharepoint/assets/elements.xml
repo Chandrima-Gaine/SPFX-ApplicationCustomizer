@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ReactAnalog"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="e62a2cb9-1cf6-4d2c-8bcc-c01ab64eaf62"
+        ClientSideComponentProperties="{&quot;Top&quot;:&quot;Chandrima-React-analog-Clock&quot;,&quot;Bottom&quot;:&quot;Chandrima Bottom area of the page&quot;}">
+    </CustomAction>
+</Elements>

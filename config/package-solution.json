@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-analog-ext-client-side-solution",
+    "id": "8184a885-9a47-4b0b-beab-051e2cccce2f",
+    "version": "2.0.0.0",
+    "includeClientSideAssets": false,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "02ae7da0-6435-4d0b-a9cc-6e1a8c8ff152",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-analog-ext.sppkg"
+  }
+}

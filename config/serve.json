@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://amaji.sharepoint.com/sites/MyCommunity/SitePages/Home.aspx",
+      "customActions": {
+        "e62a2cb9-1cf6-4d2c-8bcc-c01ab64eaf62": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Chandrima-React-analog-Clock",
+            "Bottom": "Chandrima Bottom area of the page"
+          }
+        }
+      }
+    },
+    "reactAnalog": {
+      "pageUrl": "https://amaji.sharepoint.com/sites/MyCommunity/SitePages/Home.aspx",
+      "customActions": {
+        "e62a2cb9-1cf6-4d2c-8bcc-c01ab64eaf62": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Chandrima-React-analog-Clock",
+            "Bottom": "Chandrima Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}

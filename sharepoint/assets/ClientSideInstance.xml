@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="ReactAnalog"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="e62a2cb9-1cf6-4d2c-8bcc-c01ab64eaf62"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

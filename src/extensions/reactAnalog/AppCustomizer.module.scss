@@ -1,0 +1,49 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.rectapp{
+
+  .mycustom{
+    height: 20px;
+    color:#0078d4;
+    font-weight: bold;
+    text-align: center;
+    font-size:"25px";
+    background-color: hotpink;  
+  }
+  .top 
+  {
+      height:60px;
+      text-align:center;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: red;
+      color: $ms-color-white;
+    }
+  .bottom {
+    height:50px;
+    text-align:center;
+    line-height:2.5;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: $ms-color-white;
+  }
+  .topclock{  
+  height: 0px !important;  
+  margin-left:700px!important;  
+  margin-top:40px!important;  
+  }  
+  .topclock time{  
+  width: 100px!important;  
+  height: 100px!important;  
+  margin-top: -36px!important;  
+  margin-bottom: 563PX!important;  
+  background-color: #0078d4!important;
+  border-radius: 50px!important;
+  }  
+} 
